@@ -56,3 +56,8 @@ img{
         height: 250%;
     }
 }
+@media (min-width: 550px){
+    .hero-bg-overlay{
+        height: 120%;
+    }
+}
