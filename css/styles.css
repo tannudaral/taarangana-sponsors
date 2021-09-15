@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: airstrike;
+    src: url(/font/airstrike.ttf);
+}
+html, body{
+    text-align: center;
+    background: url(/img/bg2.jpg);
+    font-family: airstrike;
+}
+
+.sponsors{
+    display: block;
+}
+h1{
+    color: #ffffff;
+    font-size: 38px;
+    padding: 20% 0% 10% 0%;
+}
+
+h3{
+    padding: 2%;
+    color: #ffffff;
+    border: 1px solid rgb(131, 127, 127);
+    border-radius: 4px;
+    background: rgba(0, 0, 0, 0.2);
+}
+img{
+    width: 200px;
+    height: auto;
+    padding: 10px;
+}
+.hero-bg-overlay{
+    position: absolute;
+    inset: 0; 
+    width: 100%;
+    height: 340%;
+    background: rgba(0,0,0, 0.4);
+    background-image: rgba(0, 0, 0, 0.4);
+    /* this is equal to saying top : 0 right: 0 etc */
+}
+@media (min-width: 1024px){
+    h1{
+        padding: 8% 0% 5% 0%;
+        font-size: 60px;
+    }
+    h3{
+        font-size: 40px;
+        padding: 2% 0%;
+    }
+    .hero-bg-overlay{
+        height: 250%;
+    }
+}
